@@ -2,7 +2,7 @@
   "name": "amazon-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://umairamjad2.github.io/amazon-clone",
+  "homepage": "https://umairamjad2.github.io/amazonclone",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
