@@ -1,0 +1,75 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      
+}
+
+
+.footer{
+      background-color: #232F3E;
+      padding: 50px 20px;
+      color: white;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+}
+
+
+.detailsBox  {
+      min-width: 180px;
+      /* max-width: 100%; */
+}
+
+.detilBox ul li{
+      list-style: none;
+      margin-bottom: 8px;
+      list-style-type: none;
+      
+}
+
+.contentFooterList{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+}
+
+.footerdetils{
+      display: flex;
+      width: 100%; 
+      justify-content: space-around;
+      /* flex-wrap: wrap; */
+      /* gap: 30px; */
+
+}
+.contentFooterTitle {
+      font-weight: 600;
+      margin-bottom: 12px;
+}
+.contentFooterList li {
+      font-size: 14px;
+      margin-bottom: 8px;
+      cursor: pointer;
+}
+.contentFooterList li:hover {
+      text-decoration: underline;
+}
+
+.footerImage{
+      margin-top: 40px;
+}
+
+.footerImage img {
+      width: 110px;
+      height: auto;
+}
+
+
+/* @media (max-width: 480px) {
+      .footer{
+            min-width: auto;
+      }
+} */

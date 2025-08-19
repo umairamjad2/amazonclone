@@ -1,0 +1,151 @@
+.cart{
+      display: flex;
+      background-color: whitesmoke;
+      gap :10px;
+      padding: 20px 18px 18px;
+      min-height: 47vh;    
+}
+
+.topLeftCart{
+      display: flex;
+      flex-direction: column;
+      width: 77%;
+      padding: 20px 15px 15px;
+      background-color: white;
+      border-radius: 10px;
+      
+}
+
+.topRightCart{
+      display: flex;
+      flex-direction: column;
+      width: 23%;
+      padding: 20px 15px 15px;
+      background-color: white;
+      border-radius: 10px;
+      height: fit-content;
+}
+.topLeftCartTitle{
+      font-size: 28px;
+      font-weight: 500;
+}
+.desellectAllCart {
+      color: #007185;
+}
+
+.cartPriceTextDivider {
+      text-align: end;
+      /* border-bottom: 1px solid grey; */
+}
+.cartItemContainer{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border-top: 1px solid #ddd;
+}
+.cartItemBlock{
+      display: flex;
+      /* border-top: 1px solid #ddd; */
+      justify-content: space-between;
+      gap: 10px;
+      padding: 20px;
+}
+.cartItemLeftBlock{
+      width: 80%;
+      display: flex;
+}
+.leftImageBox{
+      width: 20%;
+      flex-shrink: 0;
+}
+.leftImageBox img{
+      width: 100%;
+}
+.leftItemDetails {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      gap: 7px;
+
+}
+
+.productName {
+      font-size: 16px;
+      padding: 0;
+      border: none;
+      font-weight: 500;
+}
+
+.inStockCart {
+      color: #007600;
+      font-size: 12px;
+}
+
+.elligiblStatus {
+      color: #565959;
+      font-size: 12px;
+}
+
+.amazonFilledImage {
+      width: 66px;
+}
+
+.amazonFilledImage img {
+      width: 100%;
+}
+.removeCartBtn {
+      padding: 5px;
+      font-size: 14px;
+      background-color: #febd69;
+      width: fit-content;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 500;
+}
+
+
+.subTotalTitle{
+      font-size: 18px;
+      font-weight: 400;
+}
+.subTotalPrice{
+      font-weight: 600;
+}     
+.giftAddto{
+      display: flex;
+      justify-items: center;
+      font-size: 15px;
+      align-items: center;
+      margin: 10px 0;
+}
+.proceedToBuy{
+      background-color: #febd69;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+
+}
+
+.proceedToBuy.disabled {
+      opacity: 0.5;
+      pointer-events: none;
+      cursor: not-allowed;
+}
+
+/* ==== Responsive Breakpoints ====
+ */
+
+ @media (max-width: 1000px) {
+      .topLeftCart {
+            width: 70%;
+      }
+
+      .topRightCart {
+            width: 30%;
+      }
+     
+}  
+

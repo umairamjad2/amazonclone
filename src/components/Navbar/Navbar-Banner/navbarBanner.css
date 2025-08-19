@@ -1,0 +1,62 @@
+.navbarBanner{
+      display: flex;
+      background: #232F3E;
+      justify-content: space-between;
+      color: white;
+      padding: 0 0 0 11px;
+      height: 44px;
+      align-items: center;
+}
+.navbarBannerLeft {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+}
+.OptionsBox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 9px;
+      cursor: pointer;
+      color: white;
+      box-sizing: border-box;
+      text-decoration: none;
+}
+.OptionsBox:hover {
+      border: 1px solid white;
+      border-radius: 3px;
+}
+.Options {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 0 5px;
+      text-decoration: none;
+      
+}
+.navbarBannerRightSide img {
+      height: 38px;
+      object-fit: contain;
+}
+.navbarBannerRightSide:hover {
+      border: 1px solid white;
+      border-radius: 2px;
+      cursor: pointer;
+}
+/* .OptionsBox:hover,
+.navbarBannerRightSide:hover {
+      background-color: rgba(255, 255, 255, 0.1);   ///Extra line added
+      border: 1px solid white;
+      border-radius: 3px;
+} */
+ /* ✅ Extra small devices */
+ @media (max-width: 480px) {
+       .navbarBanner {
+             padding: 6px;
+             gap: 6px;
+       }
+
+       .OptionsBox {
+             font-size: 12px;
+             padding: 4px 5px;
+       }
+ }

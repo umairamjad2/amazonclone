@@ -1,0 +1,338 @@
+.navbarBelt{
+      background-color: #131921;
+      display: flex;
+      width: 100%;
+      height: 60px;
+      color: white;
+      box-sizing: border-box;
+      align-items: center;
+}     
+.leftNavBelt{
+      display: flex;
+      gap: 5px;
+      padding: 10px;
+}
+.leftNavBeltLogo{
+      width: 110px;
+      height: auto;
+      /* height: 30px; */
+      text-decoration: none;
+      color: white;
+      display: flex;
+      padding: 8px;
+      cursor: pointer;
+}
+.leftNavBeltLogo:hover {
+      border: 1px solid;
+      border-radius: 3px;
+}
+
+.leftNavBeltLogo img{
+      width: 97%;
+      height: 100%;
+}
+.leftNavBeltLogo span{
+      margin-left: 2px;
+      font-weight: 400;
+}
+
+/* Location Section */
+.leftNavBeltLoaction{
+      display: flex;
+      padding: 8px;
+      cursor: pointer;
+      height: 30px;     
+}
+.leftNavBeltLoaction:hover {
+      border: 1px solid;
+      border-radius: 3px;
+}
+
+.loactionImg .img{
+      width: 15px;
+      padding: 7px;
+      padding-bottom: 0px;
+}
+
+.locationText{
+      display: flex;
+      flex-direction: column;
+      width: 170px;
+}
+.locationTextTop{
+      font-size: 12px;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.5px;
+
+}
+.locationTextDown{
+      font-size: 12px;
+      font-weight: 600;
+      /* line-height: 10px; */
+}
+
+
+/* ----------------------------------------- */
+.navbarBeltSearchBox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 4px;
+      width: 50%;
+}
+
+.SearchBoxDiv{
+      display: flex;
+      width: 100%;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px solid #131921
+}
+.SearchBoxAll{
+      display: flex;
+      background-color: #cdcdcd;
+      gap: 5px;
+      padding: 10px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+      border: none;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: #999999;
+      font-weight: 600;
+      font-size: 13px;
+}
+
+.SearchBoxInput{
+      width: 84%;
+      padding: 10px;
+      border: none;   
+}
+.SearchBoxInput::placeholder{
+      color: gray;
+      font-size: 15px;
+      font-weight: 500;
+}
+.SearchBoxInput:focus{
+      outline: none;
+}
+
+.SearchBtn{
+      display: flex;
+      background-color: #cdcdcd;
+      gap: 5px;
+      padding: 10px;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+      border: none;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: black;
+      background:#ffa023;
+      outline: none;
+      &:hover{
+            background-color: #febd69;
+      }
+}
+
+/* ----------------------------------------- */
+.rightNavBelt{
+      display: flex;
+      padding: 8px;
+      /* gap: 10px; */
+}
+.pakFlagCode{
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      padding-top: 10px;
+      cursor: pointer;
+      height: 30px;
+      gap: 15px;
+      /* &:hover{
+            border: 1px solid;
+            border-radius: 3px;
+      } */
+}
+.pakFlag{
+      width: 30px;
+      height: 20px;
+
+}
+.pakFlagCodeText{
+      display: flex;
+      font-size: 14px;
+      font-weight: 700;
+      align-items: center;
+
+}
+/* ----------------------------------------- */
+.signInText , .ReturnsOrderText , .cartBox{
+      display: flex;
+      flex-direction: column;
+      line-height: 18px;
+      
+}
+
+.signInTextTop , .ReturnsOrderTextTop{
+      font-size: 12px;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.5px;
+
+}
+
+.signInTextDown , .ReturnsOrderTextDown ,.cartDetails{
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 10px;
+}
+
+.carttitle{
+      margin-left: 10px;
+      font-size: 15px;
+      font-weight: 700; 
+}
+.cartBox {
+      position: relative;
+      color: white;
+      text-decoration: none;
+}
+
+.cartitems{
+      position: absolute;
+      bottom: 85%;
+      right: 73% ;
+      font-size: 16px;
+      font-weight: 700;
+      color: #ffa023;
+}
+/* .cartitems {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      background: #ffa023;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 2px 6px;
+      border-radius: 50%;
+} */
+
+@media (max-width: 768px) {
+      .leftNavBeltLogo {
+                  height: auto;
+
+            }}
+             .cartitems {
+      
+                   right: 80%;
+                   font-size: 15px;
+                   font-weight: 600;
+             }
+             .pakFlagCode {
+                  padding: 4px;
+                  padding-top: 10px;
+                  gap: 3px;
+            
+            }
+            
+            .pakFlag {
+                  width: 40px;
+            
+            }
+            
+            .pakFlagCodeText {
+            
+                  font-size: 10px;
+                  font-weight: 600;
+                  margin-right: 5px;
+            }
+            
+            .signInTextDown,
+            .ReturnsOrderTextDown,
+            .cartDetails {
+            
+                  width: 95px;
+                  font-size: 13px;
+                  font-weight: 600;
+            }
+            
+            .carttitle {
+                  font-size: 13px;
+                  font-weight: 600;
+            }
+            
+            .ReturnsOrderText {
+                  text-align: center;
+            
+            }
+
+
+/* ✅ Extra small devices */
+@media (max-width: 480px) {
+      .navbarBanner {
+            padding: 6px;
+            gap: 6px;
+      }
+      .leftNavBeltLogo {
+            height: auto;
+            padding: 5px;
+            }
+      .locationText {
+            width: 170px;
+}
+
+      .leftNavBelt {
+            padding: 5px;
+}
+      .OptionsBox {
+            font-size: 12px;
+            padding: 4px 5px;
+      }
+      .pakFlagCode {
+            padding: 4px;
+            padding-top: 10px;
+            gap: 3px;
+            
+      }
+      .pakFlag{
+            width: 40px;
+
+      }
+      .pakFlagCodeText {
+
+            font-size: 10px;
+            font-weight: 600;  
+            margin-right: 5px;    
+      }
+      .signInTextDown,
+      .ReturnsOrderTextDown,
+      .cartDetails {
+            
+            width: 95px;
+            font-size: 13px;
+            font-weight: 600;
+      }
+      .carttitle {
+            font-size: 13px;
+            font-weight: 600;
+      }
+      .ReturnsOrderText{
+            text-align: center;
+      
+      }
+      .cartitems {
+
+            right: 80%;
+            font-size: 15px;
+            font-weight: 600;
+      }
+
+
+
+}
+
