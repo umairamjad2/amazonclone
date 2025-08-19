@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar/navbar";
 import HomeScreen from "./Screen/HomeScreen/homeScreen";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Product from "./Screen/Product/product";
 import Footer from "./components/Footer/footer";
 import Cart from "./Screen/Cart/cart";
@@ -9,17 +9,15 @@ import Cart from "./Screen/Cart/cart";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<HomeScreen />} />
-          <Route path="/products" element={<Product />} />
-          <Route path="/cart" element={<Cart />} />
-        </Routes>
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomeScreen />} />
+        <Route path="/products" element={<Product />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 
