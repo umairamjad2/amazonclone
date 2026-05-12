@@ -1,24 +1,8 @@
-.App{
-      padding: 0;
-      margin: 0; 
-      box-sizing: border-box;
-      width: 100%;
-      
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-@media (max-width: 480px) {
-      .App{
-            min-width: 1000px;
-            
-            
-      }}
-@media (max-width: 768px) {
-      .App{
-            min-width: 1000px;
-         
-      }}
-@media (max-width: 1000px) {
-      .App{
-            min-width: 1000px;
-         
-      }}
+/* Removed fixed min-widths to allow responsiveness */
